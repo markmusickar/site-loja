@@ -27,7 +27,7 @@ window.LOJA = {
   whatsapp: "",
 
   // Só o nome do perfil, sem @. Ex.: "lojaosuper20cupira"
-  instagram: "",
+  instagram: "lojao_super20cupira",
 
   // Horário de funcionamento. "dias" usa 0=domingo, 1=segunda ... 6=sábado.
   // Exemplo (tire as barras do começo para ativar):
