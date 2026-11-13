@@ -49,4 +49,14 @@ window.LOJA = {
   },
 */
 window.PRODUTOS = [
+  {
+    nome: "Kit relógio com pulseiras",
+    categoria: "Relógios",
+    foto: "fotos/relogio-pulseiras.jpg"
+  },
+  {
+    nome: "Travessa de vidro com tampa",
+    categoria: "Mesa e cozinha",
+    foto: "fotos/travessa-vidro.jpg"
+  }
 ];
