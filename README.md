@@ -11,7 +11,7 @@ Tudo fica no arquivo **dados.js**. Abra com o Bloco de Notas.
 
 ## Fotos
 Coloque as fotos na pasta **fotos** (de preferência pequenas, até 300 KB, formato .jpg)
-e escreva o nome no produto: `foto: "fotos/arroz.jpg"`.
+e escreva o nome no produto: `foto: "fotos/vestido.jpg"`.
 Use só fotos que você mesmo tirou ou que o fornecedor autorizou.
 
 ## Publicar

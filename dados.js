@@ -11,7 +11,7 @@ window.LOJA = {
   uf: "PE",
 
   // Uma frase curta embaixo do nome. Ex.: "Preço bom todo dia."
-  slogan: "",
+  slogan: "Moda masculina, feminina e infantil, cama, mesa e banho",
 
   // Endereço completo, para o botão "Como chegar". Ex.: "Rua Tal, 123, Centro"
   endereco: "",
@@ -38,12 +38,12 @@ window.LOJA = {
   PRODUTOS — um bloco { ... } para cada produto. Exemplo (tire as barras para ativar):
 
   {
-    nome: "Arroz tipo 1 5kg",
-    categoria: "Mercearia",        // vira um botão de filtro
-    foto: "fotos/arroz.jpg",       // coloque a foto na pasta "fotos"
-    preco: 24.9,                   // use ponto, sem R$. Deixe fora se não quiser mostrar preço.
-    precoAntes: 27.9,              // opcional: preço antigo, aparece riscado
-    unidade: "pacote",             // opcional: aparece pequeno ao lado do preço
+    nome: "Vestido floral",
+    categoria: "Moda feminina",        // vira um botão de filtro
+    foto: "fotos/vestido.jpg",       // coloque a foto na pasta "fotos"
+    preco: 79.9,                   // use ponto, sem R$. Deixe fora se não quiser mostrar preço.
+    precoAntes: 99.9,              // opcional: preço antigo, aparece riscado
+    unidade: "cada",             // opcional: aparece pequeno ao lado do preço
     oferta: true,                  // true = aparece em "Ofertas da semana"
     descricao: ""                  // opcional
   },

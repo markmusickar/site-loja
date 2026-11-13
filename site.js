@@ -177,7 +177,7 @@
   // Dados para o Google (aparece só quando há endereço)
   if (L.endereco) {
     var ld = {
-      "@context": "https://schema.org", "@type": "GroceryStore", name: L.nome,
+      "@context": "https://schema.org", "@type": "DepartmentStore", name: L.nome,
       url: "https://www.lojaosuper20cupira.com.br/",
       address: { "@type": "PostalAddress", streetAddress: L.endereco, addressLocality: L.cidade, addressRegion: L.uf, addressCountry: "BR" }
     };
