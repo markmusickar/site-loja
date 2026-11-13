@@ -34,6 +34,7 @@ window.LOJA = {
   //   { texto: "Segunda a sábado", dias: [1, 2, 3, 4, 5, 6], abre: "07:30", fecha: "20:00" },
   //   { texto: "Domingo",          dias: [0],                abre: "08:00", fecha: "12:00" },
   horarios: [
+    { texto: "Segunda a sábado", dias: [1, 2, 3, 4, 5, 6], abre: "08:00", fecha: "18:00" }
   ],
 
   // Link da página de currículos
