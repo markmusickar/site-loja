@@ -38,7 +38,7 @@
   }
   if (mapa) $("acoes").appendChild(link("Como chegar", mapa, "botao", true));
   if (telNum) $("acoes").appendChild(link("Ligar", "tel:+55" + telNum.replace(/^55/, ""), "botao"));
-  if (L.curriculos) $("linkVagas").href = L.curriculos;
+  if (L.curriculos) { $("linkVagas").href = L.curriculos; $("linkVagasArte").href = L.curriculos; }
 
   // Ofertas e produtos
   var ofertas = P.filter(function (p) { return p && p.oferta; });

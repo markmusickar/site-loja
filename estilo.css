@@ -121,3 +121,10 @@ h1,h2,h3{margin:0}
 .rodape-linha{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
 .rodape p{margin:0}.rodape a{color:var(--marinho);font-weight:700}
 .sem-js{padding:20px;text-align:center;font-weight:700}
+
+.faixa-linha{align-items:center;justify-content:flex-start;gap:28px 40px}
+.vagas-arte{flex:0 0 auto;width:min(300px,100%);border-radius:20px;overflow:hidden;display:block;margin-inline:auto}
+.vagas-arte img{width:100%;height:auto}
+.vagas-texto{flex:1 1 280px}
+.vagas-texto h2{font-size:1.8rem;font-weight:800;letter-spacing:-.02em;margin-bottom:10px}
+.vagas-texto p{margin:0 0 20px;color:#d5dae6}
