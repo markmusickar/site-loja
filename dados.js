@@ -13,6 +13,9 @@ window.LOJA = {
   // Uma frase curta embaixo do nome. Ex.: "Preço bom todo dia."
   slogan: "Moda masculina, feminina e infantil, cama, mesa e banho",
 
+  // Os blocos grandes embaixo do topo. Mude, apague ou acrescente à vontade.
+  departamentos: ["Moda masculina", "Moda feminina", "Moda infantil", "Cama, mesa e banho"],
+
   // Endereço completo, para o botão "Como chegar". Ex.: "Rua Tal, 123, Centro"
   endereco: "",
 

@@ -73,6 +73,12 @@
   }
 
   var menu = [];
+  if (Array.isArray(L.departamentos) && L.departamentos.length) {
+    $("deptos").hidden = false;
+    L.departamentos.forEach(function (n) {
+      $("deptosGrade").appendChild(link(n, P.length ? "#produtos" : "#vagas", "depto"));
+    });
+  }
   if (ofertas.length) {
     $("ofertas").hidden = false; menu.push(["Ofertas", "#ofertas"]);
     if (temPreco) $("avisoPreco").hidden = false;

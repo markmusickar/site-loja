@@ -92,3 +92,32 @@ img{max-width:100%;display:block}
 .heroi h1{font-size:0;line-height:0;text-shadow:none;margin:0}
 .logo{width:min(380px,80%);height:auto;margin:-10px 0 0 -8px}
 .heroi .slogan{font-size:1.25rem}
+
+/* ---- visual v2 ---- */
+.heroi{background-color:var(--amarelo);background-image:radial-gradient(rgba(16,35,63,.10) 2px,transparent 2.5px);background-size:20px 20px;padding:36px 0 48px;border-bottom:0;position:relative}
+.heroi::after{content:"";position:absolute;left:0;right:0;bottom:0;height:16px;background:repeating-linear-gradient(135deg,var(--vermelho) 0 18px,var(--marinho) 18px 36px)}
+.heroi-grade{grid-template-columns:1fr;align-items:center;gap:20px}
+.heroi h1.heroi-logo{margin:0;font-size:0;line-height:0}
+.heroi .logo{width:min(440px,88%);margin:0 auto}
+.heroi-texto{text-align:center}
+.heroi-texto .acoes{justify-content:center}
+.heroi .slogan{font-size:1.35rem;margin:6px auto 0;max-width:24ch}
+.heroi .aberto{margin:26px auto 0;max-width:340px;text-align:left}
+@media (min-width:860px){
+ .heroi{padding:56px 0 72px}
+ .heroi-grade{grid-template-columns:1.1fr 1fr;gap:40px}
+ .heroi .logo{width:min(560px,100%);margin:0}
+ .heroi-texto{text-align:left}.heroi-texto .acoes{justify-content:flex-start}
+ .heroi .slogan{margin-left:0;font-size:1.7rem;max-width:22ch}
+ .heroi .aberto{margin-left:0}
+}
+.deptos{background:var(--marinho);padding:26px 0}
+.deptos-grade{display:grid;gap:14px;grid-template-columns:1fr 1fr}
+@media (min-width:860px){.deptos-grade{grid-template-columns:repeat(4,1fr)}}
+.depto{display:flex;align-items:flex-end;min-height:112px;padding:14px 16px;font-family:var(--fonte);font-weight:900;font-size:1.3rem;line-height:1.05;text-decoration:none;border:3px solid var(--amarelo);color:var(--marinho);background:var(--amarelo);box-shadow:5px 5px 0 var(--vermelho);transition:transform .1s,box-shadow .1s}
+.depto:nth-child(even){background:var(--vermelho);color:#fff;border-color:#fff;box-shadow:5px 5px 0 var(--amarelo)}
+.depto:hover{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--vermelho)}
+.depto:nth-child(even):hover{box-shadow:2px 2px 0 var(--amarelo)}
+.cartao{transition:transform .12s}.cartao:hover{transform:translate(-2px,-2px)}
+.secao{padding:64px 0}
+.cartao-nome{font-size:1.1rem}
