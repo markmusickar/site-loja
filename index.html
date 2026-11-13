@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#FFD500">
+  <title>Lojão Super 20 Cupira – ofertas, produtos e como chegar</title>
+  <meta name="description" content="Veja as ofertas, os produtos, o horário e como chegar ao Lojão Super 20 em Cupira, Pernambuco.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Lojão Super 20 Cupira">
+  <meta property="og:title" content="Lojão Super 20 Cupira">
+  <meta property="og:description" content="Ofertas, produtos, horário e como chegar.">
+  <meta property="og:url" content="https://www.lojaosuper20cupira.com.br/">
+  <link rel="canonical" href="https://www.lojaosuper20cupira.com.br/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilo.css?v=2">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="topo">
+    <div class="miolo topo-linha">
+      <a class="marca" href="#inicio" aria-label="Lojão Super 20, início">Lojão Super 20</a>
+      <nav class="menu" aria-label="Seções" id="menu"></nav>
+      <a class="botao botao-zap" id="topoZap" href="#" hidden>WhatsApp</a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="heroi" id="inicio">
+      <div class="miolo heroi-grade">
+        <div class="heroi-texto">
+          <p class="etiqueta-local"><span id="localTexto">Cupira, PE</span></p>
+          <h1>Lojão Super 20</h1>
+          <p class="slogan" id="slogan" hidden></p>
+          <div class="acoes" id="acoes"></div>
+        </div>
+        <aside class="aberto" id="aberto" hidden aria-live="polite">
+          <p class="aberto-estado" id="abertoEstado"></p>
+          <p class="aberto-detalhe" id="abertoDetalhe"></p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="secao" id="ofertas" hidden>
+      <div class="miolo">
+        <h2 class="titulo"><span>Ofertas da semana</span></h2>
+        <p class="aviso" id="avisoPreco" hidden>Preços e ofertas podem mudar e valem enquanto durar o estoque.</p>
+        <div class="grade" id="gradeOfertas"></div>
+      </div>
+    </section>
+
+    <section class="secao secao-cinza" id="produtos" hidden>
+      <div class="miolo">
+        <h2 class="titulo"><span>Produtos</span></h2>
+        <div class="filtros">
+          <label class="visualmente-oculto" for="busca">Buscar produto</label>
+          <input id="busca" type="search" placeholder="Buscar produto" autocomplete="off">
+          <div class="chips" id="chips" role="group" aria-label="Categorias"></div>
+        </div>
+        <p class="vazio" id="semResultado" hidden>Nenhum produto encontrado. Tente outra palavra ou escolha “Todos”.</p>
+        <div class="grade" id="gradeProdutos"></div>
+      </div>
+    </section>
+
+    <section class="secao" id="onde" hidden>
+      <div class="miolo onde-grade">
+        <div>
+          <h2 class="titulo"><span>Onde estamos</span></h2>
+          <address class="endereco" id="endereco"></address>
+          <div class="acoes" id="acoesOnde"></div>
+        </div>
+        <div class="horarios" id="blocoHorarios" hidden>
+          <h3>Horário de funcionamento</h3>
+          <dl id="listaHorarios"></dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="faixa-vagas" id="vagas">
+      <div class="miolo faixa-linha">
+        <p><strong>Quer trabalhar com a gente?</strong> As vagas são de carteira assinada.</p>
+        <a class="botao botao-escuro" id="linkVagas" href="https://curriculos.lojaosuper20cupira.com.br">Enviar currículo</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="miolo rodape-linha">
+      <p>Lojão Super 20 Cupira, Pernambuco.</p>
+      <p id="redes" hidden></p>
+    </div>
+  </footer>
+
+  <noscript><p class="sem-js">Para ver as ofertas e os produtos, ative o JavaScript no seu navegador.</p></noscript>
+  <script src="dados.js?v=2"></script>
+  <script src="site.js?v=2"></script>
+</body>
+</html>

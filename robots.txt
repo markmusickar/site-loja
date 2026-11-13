@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.lojaosuper20cupira.com.br/sitemap.xml
