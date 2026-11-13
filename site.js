@@ -24,7 +24,7 @@
   var zapNum = soNumeros(L.whatsapp);
   if (zapNum && zapNum.length <= 11) zapNum = "55" + zapNum;
   var telNum = soNumeros(L.telefone);
-  var mapa = L.endereco ? "https://www.google.com/maps/search/?api=1&query=" +
+  var mapa = L.mapa ? L.mapa : L.endereco ? "https://www.google.com/maps/search/?api=1&query=" +
     encodeURIComponent(L.endereco + ", " + (L.cidade || "") + " " + (L.uf || "")) : "";
   var insta = String(L.instagram || "").replace(/^@/, "").replace(/[^\w.]/g, "");
 
@@ -117,12 +117,12 @@
   }
 
   // Onde estamos
-  if (L.endereco || (L.horarios && L.horarios.length)) {
+  if (L.endereco || mapa || (L.horarios && L.horarios.length)) {
     $("onde").hidden = false; menu.push(["Onde estamos", "#onde"]);
     if (L.endereco) {
       $("endereco").textContent = L.endereco + ", " + (L.cidade || "") + (L.uf ? " - " + L.uf : "");
-      $("acoesOnde").appendChild(link("Abrir no mapa", mapa, "botao", true));
     }
+    if (mapa) $("acoesOnde").appendChild(link("Abrir no mapa", mapa, "botao", true));
   }
   menu.push(["Trabalhe conosco", "#vagas"]);
   menu.forEach(function (m) { $("menu").appendChild(link(m[0], m[1])); });

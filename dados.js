@@ -16,6 +16,9 @@ window.LOJA = {
   // Os blocos grandes embaixo do topo. Mude, apague ou acrescente à vontade.
   departamentos: ["Moda masculina", "Moda feminina", "Moda infantil", "Cama, mesa e banho"],
 
+  // Link do Google Maps da loja (botão "Como chegar")
+  mapa: "https://maps.app.goo.gl/nnQArYCo2SRT8ZvV7",
+
   // Endereço completo, para o botão "Como chegar". Ex.: "Rua Tal, 123, Centro"
   endereco: "",
 
