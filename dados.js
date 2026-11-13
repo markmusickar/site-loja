@@ -57,6 +57,51 @@ window.LOJA = {
 */
 window.PRODUTOS = [
   {
+    nome: "Ventilador portátil recarregável",
+    categoria: "Eletrônicos",
+    foto: "fotos/ventilador-portatil.jpg"
+  },
+  {
+    nome: "Luminária de mesa Lelong LE-5830",
+    categoria: "Eletrônicos",
+    foto: "fotos/luminaria-lelong.jpg"
+  },
+  {
+    nome: "Caixa de som 8W Altomex AL-5301",
+    categoria: "Eletrônicos",
+    foto: "fotos/caixa-de-som-8w.jpg"
+  },
+  {
+    nome: "Aspirador de pó portátil 3 em 1",
+    categoria: "Casa",
+    foto: "fotos/aspirador-3em1.jpg"
+  },
+  {
+    nome: "Tapete de retalho",
+    categoria: "Casa",
+    foto: "fotos/tapete-retalho.jpg"
+  },
+  {
+    nome: "Garrafa esportiva 600 ml",
+    categoria: "Casa",
+    foto: "fotos/garrafa-esportiva.jpg"
+  },
+  {
+    nome: "Calculadora colorida CT-818",
+    categoria: "Papelaria",
+    foto: "fotos/calculadora-colorida.jpg"
+  },
+  {
+    nome: "Bolsa vermelha e preta",
+    categoria: "Bolsas",
+    foto: "fotos/bolsa-vermelha-preta.jpg"
+  },
+  {
+    nome: "Bolsa de viagem estampada",
+    categoria: "Bolsas",
+    foto: "fotos/bolsa-viagem-estampada.jpg"
+  },
+  {
     nome: "Kit relógio com pulseiras",
     categoria: "Relógios",
     foto: "fotos/relogio-pulseiras.jpg"
